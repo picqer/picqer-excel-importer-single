@@ -1,0 +1,19 @@
+{
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Casper Bakker",
+            "email": "info@picqer.com"
+        }
+    ],
+    "require": {
+        "phpoffice/phpexcel": "1.8.*",
+        "picqer/api-client": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "PicqerImporter\\": "PicqerImporter/"
+        }
+    }
+}
